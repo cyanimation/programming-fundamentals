@@ -1,24 +1,28 @@
 ---
 # Introduction
 
+- who am I?
+- what exactly will we be learning?
+- where can I find resources?
 
----
-# Koding accounts
+## Koding accounts
 
-## set up
-
-## workspaces - what are they and how will we use them?
+-- set up
+-- workspaces - what are they and how will we use them?
+-- IDLE
 
 
 ---
 # Basics
 
-## running basic expressions 
+## getting started
+
+### running basic expressions 
 
 - How to run a program (Hello World)
 
 
-## its okay to make mistakes. 
+### its okay to make mistakes. 
 
 - An error just means that the program didn't work. Keep experimenting to get it
     right.
@@ -27,7 +31,7 @@
     it is you tell them to do
 
 
-## order of operations
+### order of operations
 
 - programs are full of operators and operands. Knowing the proper order that
     things are executed is critical to successful programming.
@@ -130,6 +134,11 @@ else:
   print "I don't know you"
 
 
+# Review
+- variables and data types
+- special functions
+- booleans
+- if, elif, else
 
 # Homework
 
