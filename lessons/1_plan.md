@@ -1,4 +1,4 @@
----
+
 # Introduction
 
 - who am I?
@@ -12,7 +12,6 @@
 -- IDLE
 
 
----
 # Basics
 
 ## getting started
