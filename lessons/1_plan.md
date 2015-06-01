@@ -7,9 +7,9 @@
 
 ## Koding accounts
 
--- set up
--- workspaces - what are they and how will we use them?
--- IDLE
+- set up
+- workspaces - what are they and how will we use them?
+- IDLE
 
 
 # Basics
@@ -46,17 +46,17 @@
 
 ### operators with data types
 
-- 'Alice' + ' is hungry'
-- 'Alice' + 4
-- 'Alice' * 5
+- ```'Alice' + ' is hungry'```
+- ```'Alice' + 4```
+- ```'Alice' * 5```
 
 ### storing data types
 
-- name = 'Alice'
-- age = 7
-- age = age + 1
-- age += 1
-- name = 'Bob'
+- ```name = 'Alice'```
+- ```age = 7```
+- ```age = age + 1```
+- ```age += 1```
+- ```name = 'Bob'```
 
 ### variable names 
 
@@ -113,24 +113,30 @@ True and False are reserved words
 
 expressions 
 
+```
  42   <  50 == True
  50  ==  50 == True
  51  !=  50 == True
 '42' !=  42 == True
+```
 
 combining expressions
 
+```
 (1 < 2) and (2 > 3) == False
 (1 < 2) or  (2 > 3) == True
+```
 
 control flow
 
+```
 if name == 'Reed':
   print 'Hello Reed'
 elif name == 'Britney':
   print 'Hello Britney'
 else:
   print "I don't know you"
+```
 
 
 # Review
