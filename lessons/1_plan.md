@@ -4,39 +4,36 @@
 - who am I?
 - who are you and what do you do in your free time?
 - who has had experience with programming?
-
 - who knows what a programming language is?
 - explain why I am using Python (and what it is)
-
-```JavaScript
-function thisFunc(param) {
-  if (this) {
-    that();
-  }
-}
-```
-
-``` Python
-def this_func(param):
-  if this:
-    that()
-```
+    ```JavaScript
+    function thisFunc(param) {
+      if (this) {
+        that();
+      }
+    }
+    ```
+    ``` Python
+    def this_func(param):
+      if this:
+        that()
+    ```
+- where can I find resources?
 
 ## outline for course
-- execution, variables, booleans, if
-- blocks, loops, and modules
-- functions, scope, and exceptions
-- lists, tuples, and dictionaries
-- TBD
-- TBD
+- Week 1: execution, variables, booleans, if
+- Week 2: blocks, loops, and modules
+- Week 3: functions, scope, and exceptions
+- Week 4: lists, tuples, and dictionaries
+- Week 5: TBD
+- Week 6: TBD
 
-where can I find resources?
 
 ## Koding accounts
 
 - does everyone have them set up?
 - workspaces - what are they and how will we use them?
-- what is a text editor
+- what is a text editor?
 - what is a terminal?
 - how do I call programs from a terminal and what does that mean?
 - IDLE (just FYI because the book uses IDLE)
@@ -48,23 +45,21 @@ where can I find resources?
 ## getting started
 
 ### running basic expressions
-
-- How to run a program (Hello World)
+How to run a program (Hello World)
 
 
 ### its okay to make mistakes.
+An error just means that the program didn't work. Keep experimenting to get it
+right.
 
-- An error just means that the program didn't work. Keep experimenting to get it
-    right.
-
-- its important to be precise though because computers will try to do whatever
-    it is you tell them to do
+its important to be precise though because computers will try to do whatever it
+is you tell them to do
 
 
 ### order of operations
 
-- programs are full of operators and operands. Knowing the proper order that
-    things are executed is critical to successful programming.
+programs are full of operators and operands. Knowing the proper order that
+things are executed is critical to successful programming.
 
 
 ## variables
@@ -99,7 +94,6 @@ RULES:
 - single word (single_word)
 - letters, numbers and underscore (_also_valid_2)
 - cannot begin with number
-
 - case sensitive (spam does not equal SPAM)
 - use variable names that describe the container
 - the book uses camelCase but we will use Python PEP8 standard
@@ -203,21 +197,21 @@ Review your program (basics.py)
 ## Practice Questions
 
 1. Which of the following are operators, and which are values?
-```
-*
-*'hello'
--88.8
--
--/
-+
-+5
-```
+  ```
+  *
+  *'hello'
+  -88.8
+  -
+  -/
+  +
+  +5
+  ```
 
 2. Which of the following is a variable, and which is a string?
-```
-spam
-'spam'
-```
+  ```
+  spam
+  'spam'
+  ```
 3. Name three data types.
 
 4. What is an expression made up of? What do all expressions do?
@@ -226,16 +220,16 @@ spam
    difference between an expression and a statement?
 
 6. What does the variable bacon contain after the following code runs?
-```
-bacon = 20
-bacon + 1
-```
+  ```
+  bacon = 20
+  bacon + 1
+  ```
 
 7. What should the following two expressions evaluate to?
-```
-'spam' + 'spamspam'
-'spam' * 3
-```
+  ```
+  'spam' + 'spamspam'
+  'spam' * 3
+  ```
 
 8. Why is eggs a valid variable name while 100 is invalid?
 
@@ -243,9 +237,9 @@ bacon + 1
    or string version of a value?
 
 10. Why does this expression cause an error? How can you fix it?
-```
-'I have eaten ' + 99 + ' burritos.'
-```
+  ```
+  'I have eaten ' + 99 + ' burritos.'
+  ```
 
 Extra credit: Search online for the Python documentation for the len() function.
 It will be on a web page titled “Built-in Functions.Skim the list of other
