@@ -3,26 +3,10 @@
 
 - who am I?
 - who are you and what do you do in your free time?
-- who has had experience with programming?   
+- who has had experience with programming?
 
 - who knows what a programming language is?
-- explain why I am using Python (and what it is)   
-
-- what exactly will we be learning?
-- where can I find resources?
-
-## Koding accounts
-
-- set up
-- workspaces - what are they and how will we use them?
-- what is a text editor
-- what is a terminal?
-- how do I call programs from a terminal and what does that mean?
-- IDLE
-
------------------------------ TODO ------------------------------------
-create outline for course
-go into more detail about the homework
+- explain why I am using Python (and what it is)
 
 ```JavaScript
 function thisFunc(param) {
@@ -38,17 +22,37 @@ def this_func(param):
     that()
 ```
 
+## outline for course
+- execution, variables, booleans, if
+- blocks, loops, and modules
+- functions, scope, and exceptions
+- lists, tuples, and dictionaries
+- TBD
+- TBD
+
+where can I find resources?
+
+## Koding accounts
+
+- does everyone have them set up?
+- workspaces - what are they and how will we use them?
+- what is a text editor
+- what is a terminal?
+- how do I call programs from a terminal and what does that mean?
+- IDLE (just FYI because the book uses IDLE)
+
+
 
 # Basics
 
 ## getting started
 
-### running basic expressions 
+### running basic expressions
 
 - How to run a program (Hello World)
 
 
-### its okay to make mistakes. 
+### its okay to make mistakes.
 
 - An error just means that the program didn't work. Keep experimenting to get it
     right.
@@ -73,24 +77,28 @@ def this_func(param):
 
 ### operators with data types
 
-- ```'Alice' + ' is hungry'```
-- ```'Alice' + 4```
-- ```'Alice' * 5```
+```
+'Alice' + ' is hungry'
+'Alice' + 4
+'Alice' * 5
+```
 
 ### storing data types
 
-- ```name = 'Alice'```
-- ```age = 7```
-- ```age = age + 1```
-- ```age += 1```
-- ```name = 'Bob'```
+```
+name = 'Alice'
+age = 7
+age = age + 1
+age += 1
+name = 'Bob'
+```
 
-### variable names 
+### variable names
 
 RULES:
 - single word (single_word)
 - letters, numbers and underscore (_also_valid_2)
-- cannot begin with number 
+- cannot begin with number
 
 - case sensitive (spam does not equal SPAM)
 - use variable names that describe the container
@@ -127,7 +135,7 @@ RULES:
 ### booleans
 True and False are reserved words
 
-#### comparison operators 
+#### comparison operators
 - ==
 - !=
 - >
@@ -138,7 +146,7 @@ True and False are reserved words
 - or
 - not
 
-expressions 
+expressions
 
 ```
  42   <  50 == True
@@ -174,15 +182,72 @@ else:
 
 # Homework
 
+Review your program (basics.py)
+
 ## tip calculator
-- server's name
-- the meal
-- the tax
-- the tip
-- the total
+- Ask for the server's name (collect in variable)
+- Ask for how much the meal was (integer)
+- Ask for how much the tax is (floating point)
+- Ask for what the percentage of the tip is (integer) (NOTE: you will have to
+    convert this to a floating point by dividing by 100)
+- Print out the name of the server and the total
 
 ## grade calculator
-- n number of classes
-- grades (a: 4, a-: 3.7 etc.)
-- points (grade * credits)
-- gpa (sum(points) / sum(credits))
+- choose n number of classes (n being the number you choose)
+- create variables storing each of the grades and their values (a: 4, a-: 3.7 etc.)
+- calculate the points (grade * credits)
+- calculate the gpa (sum(points) / sum(credits))
+- print your cumulative GPA
+
+
+## Practice Questions
+
+1. Which of the following are operators, and which are values?
+```
+*
+*'hello'
+-88.8
+-
+-/
++
++5
+```
+
+2. Which of the following is a variable, and which is a string?
+```
+spam
+'spam'
+```
+3. Name three data types.
+
+4. What is an expression made up of? What do all expressions do?
+
+5. This chapter introduced assignment statements, like spam = 10. What is the
+   difference between an expression and a statement?
+
+6. What does the variable bacon contain after the following code runs?
+```
+bacon = 20
+bacon + 1
+```
+
+7. What should the following two expressions evaluate to?
+```
+'spam' + 'spamspam'
+'spam' * 3
+```
+
+8. Why is eggs a valid variable name while 100 is invalid?
+
+9. What three functions can be used to get the integer, floating-point number,
+   or string version of a value?
+
+10. Why does this expression cause an error? How can you fix it?
+```
+'I have eaten ' + 99 + ' burritos.'
+```
+
+Extra credit: Search online for the Python documentation for the len() function.
+It will be on a web page titled “Built-in Functions.Skim the list of other
+functions Python has, look up what the round() function does, and experiment
+with it in the interactive shell.
