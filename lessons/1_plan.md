@@ -2,6 +2,12 @@
 # Introduction
 
 - who am I?
+- who are you and what do you do in your free time?
+- who has had experience with programming?   
+
+- who knows what a programming language is?
+- explain why I am using Python (and what it is)   
+
 - what exactly will we be learning?
 - where can I find resources?
 
@@ -9,7 +15,28 @@
 
 - set up
 - workspaces - what are they and how will we use them?
+- what is a text editor
+- what is a terminal?
+- how do I call programs from a terminal and what does that mean?
 - IDLE
+
+----------------------------- TODO ------------------------------------
+create outline for course
+go into more detail about the homework
+
+```JavaScript
+function thisFunc(param) {
+  if (this) {
+    that();
+  }
+}
+```
+
+``` Python
+def this_func(param):
+  if this:
+    that()
+```
 
 
 # Basics

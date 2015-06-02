@@ -32,3 +32,12 @@
 - [Python Documentation](https://docs.python.org/2.7/)
 - [IDLE Documentation](https://docs.python.org/2/library/idle.html)
 - [Style Guide](https://www.python.org/dev/peps/pep-0008/)
+
+
+## Text Editors
+- [Sublime Text](http://www.sublimetext.com/)
+- [Visual Studio Code](https://www.visualstudio.com/en-us/products/code-vs.aspx)
+- [Atom](https://atom.io/)
+- [Vim](http://www.vim.org/download.php) (more difficult)
+- [Emacs](http://www.gnu.org/software/emacs/) (more difficult)
+
