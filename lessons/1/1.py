@@ -12,6 +12,8 @@ week 5: classes and OOP ???
 week 6: TBD
 '''
 
+# course website: https://github.com/reedcwilson/programming-fundamentals
+
 # what is a programming language?
 
 # why Python?
