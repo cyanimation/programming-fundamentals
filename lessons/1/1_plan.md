@@ -179,19 +179,7 @@ else:
 Review your program (basics.py)
 
 ## tip calculator
-- Ask for the server's name (collect in variable)
-- Ask for how much the meal was (integer)
-- Ask for how much the tax is (floating point)
-- Ask for what the percentage of the tip is (integer) (NOTE: you will have to
-    convert this to a floating point by dividing by 100)
-- Print out the name of the server and the total
 
 ## grade calculator
-- choose n number of classes (n being the number you choose)
-- create variables storing each of the grades and their values (a: 4, a-: 3.7 etc.)
-- calculate the points (grade * credits)
-- calculate the gpa (sum(points) / sum(credits))
-- print your cumulative GPA
-
 
 ## Practice Questions

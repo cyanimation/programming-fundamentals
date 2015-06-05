@@ -17,6 +17,15 @@ week 6: TBD
 # what is a programming language?
 
 # why Python?
+#function func(param) {
+        #if (condition) {
+             #launchMisile();
+            #}
+        #}
+
+#def func(param):
+    #if condition:
+        #launchMisile();
 
 # your first program
 
@@ -27,8 +36,32 @@ week 6: TBD
 #==============================================================================#
 
 # data types
+#integer (int)
+#1, 3, 5
+#floating point (float, decimal)
+#1.2, 5.7 (5)
+#string (str)
+#'hello world', '456', 'dfjkl$$%6jklsdf_'
 
 # variables
+'''
++, -, *, /, %
+'''
+#print (3 + 4) * 2
+#print 'hello ' + 'britney'
+
+# f(x, y) = 3 + 4x + 10x**2
+#age = 26
+#years = 2
+#name = 'reed'
+
+#age = age + years
+
+'''
+letters, numbers, underscores
+cannot begin with a number
+age, years2, _age, my_age, my_age
+'''
 
 
 
@@ -36,6 +69,10 @@ week 6: TBD
 #------------------------------ Special Functions -----------------------------#
 #==============================================================================#
 
+#print 'the message'
+#color = raw_input('what is your favorite color ')
+#print color
+#num = int('four') # int('4')
 
 
 
@@ -43,13 +80,32 @@ week 6: TBD
 #----------------------------- Boolean Expressions ----------------------------#
 #==============================================================================#
 
-# what is a boolean?
+# what is a boolean? (bool)
+#print True, False
 
 # operators
+'''
+>
+<
+>=
+<=
+==
+!=
+and (&&)
+or (||)
+not (!)
+'''
 
 # expressions
+#print 3 < 4
+#britney = 27
+#reed = 26
+#print britney > reed
+#happy = True
 
 # combining expressions
+#print not reed > britney and not happy
+
 
 
 
@@ -58,7 +114,16 @@ week 6: TBD
 #==============================================================================#
 
 # if this, then that
-
+happy = False
+hungry = True
+tired = True
+content = happy and not hungry
+if happy:
+    print "I'm so happy"
+elif (hungry or not tired) and happy:
+    print "I'm going to eat"
+else:
+    print "I'm not happy, sad, just cheese :( :( >:("
 
 
 #==============================================================================#
