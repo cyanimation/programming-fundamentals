@@ -5,6 +5,6 @@
 
 # calculate the points that each grade represents (grade * credits)
 
-# calculate the gpa (sum(points) / sum(credits)) -- sum is a special function
+# calculate the gpa total_points / total_credits
 
 # print your cumulative GPA

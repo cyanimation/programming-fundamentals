@@ -2,10 +2,18 @@
 
 # import some modules so that we get some extra functionality
 import os
-import sys
 
 # clear the console screen
 os.system('clear')
+
+#   03 R 1
+#  _____
+#3 |10
+#  - 9
+#    1
+
+#print 3/10
+#print 3%10
 
 # ask for your n
 n = int(raw_input('What is the number you want to loop till? '))
