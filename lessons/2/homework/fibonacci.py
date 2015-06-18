@@ -26,3 +26,7 @@
         # print the answer
 
 # otherwise let them know that you didn't understand their choice
+
+# wait for the user to press enter to quit
+
+# clear the console screen

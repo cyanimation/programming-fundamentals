@@ -4,6 +4,13 @@
 import os
 import sys
 
+def do_fibonacci(fir, sec):
+    print fir
+    temp = sec
+    sec += fir
+    fir = temp
+    return fir, sec
+
 # clear the console screen
 os.system('clear')
 
@@ -21,19 +28,21 @@ if option == 1 or option == 2:
     if option == 1:
         # for option 1, loop for n times
         for i in range(n):
-            print first,
-            temp = second
-            second += first
-            first = temp
+            first, second = do_fibonacci(first, second)
+            #print first,
+            #temp = second
+            #second += first
+            #first = temp
         # print the answer
         print '\nThe answer is: ' + str(first)
     elif option == 2:
         # loop while we are <= to n
         while second <= n:
-            print first, 
-            temp = second
-            second += first
-            first = temp
+            first, second = do_fibonacci(first, second)
+            #print first, 
+            #temp = second
+            #second += first
+            #first = temp
         # print the answer
         print '\nThe answer is: ' + str(first)
 else:
