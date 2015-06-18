@@ -7,9 +7,7 @@ Review
 ## outline for course
 - Week 1: execution, variables, booleans, if
 - Week 2: blocks, loops, and modules
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-- Week 3: functions, scope, and exceptions
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+- **Week 3: functions, scope, and exceptions**
 - Week 4: lists, tuples, and dictionaries
 - Week 5: classes, OOP
 - Week 6: TBD
