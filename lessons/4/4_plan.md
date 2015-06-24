@@ -40,6 +40,7 @@ del(my_list[1])
 
 
 ***Activity***
+
 Create a list containing the numbers 1-5. 
 print the second number in the list
 
@@ -62,6 +63,7 @@ for i, num in enumerate(my_list):
 
 
 ***Activity***
+
 write program that:
 Asks for the names of each space invader that has visited you in your bedroom
 stores them in a list
@@ -119,6 +121,7 @@ my_list.remove(3)
 
 
 ***Activity***
+
 keep asking the user for numbers until they put -1
 ask the user for a number to check to see if its in the list
 sort the list
