@@ -6,7 +6,7 @@ This weeks homework consists of one program and some practice questions.
 2. Practice Questions
 
 My suggestions to you of how to create these programs can be found in
-calculator.py. It contains the basic
+suess_fixer.py. It contains the basic
 [algorithms](http://whatis.techtarget.com/definition/algorithm) I would follow
 if I were creating the program.
 
