@@ -20,9 +20,10 @@
 - Tuples
 - Dictionaries
 
-## Lesson 5 (?)
-- Classes
-- Object-Oriented Programming OOP
+## Lesson 5
+- Files
+- Review
 
 ## Lesson 6
-- TBD
+- Your program
+- Review
