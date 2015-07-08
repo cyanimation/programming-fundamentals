@@ -25,6 +25,27 @@ def main():
   # Do not simply write out every line manually (ie print('7 14 21 28 35 49 56
   #   63') ).
 
+    #1 2 3 4 5 6 7 8 9
+  #1 1 2 3 4 5 6 7 8 9
+  #2
+  #3
+  #4
+  #5
+  #6
+  #7
+
+  row_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+  col_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+  table = []
+  for row_num in row_list:
+      row = []
+      for col_num in col_list:
+          #add row_num * col_num to row
+          print row_num * col_num
+      # add your row to the table
+
+  # print the table
+
   #   SUBGOALS
 
   #       As your products get larger, your columns will start to get crooked from

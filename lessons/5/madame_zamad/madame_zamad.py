@@ -3,6 +3,17 @@
 # import some modules so that we get some extra functionality
 import os
 import sys
+import random
+import time
+
+def do_question(wait_responses, responses):
+  # A. Allow the user to enter their question
+  question = raw_input("What is your question? ")
+  # B. Display an in progress message( i.e. "divining...")
+  print wait_responses[random.randint(0, len(wait_responses)-1)]
+  time.sleep(2)
+  # C. Create many responses, and show a random response
+  print responses[random.randint(0, len(responses)-1)]
 
 def main():
   ''' This is the main function that is our initial entry point into our program '''
@@ -11,35 +22,50 @@ def main():
 
   fortunes_filename = 'fortunes.txt'
   responses_filename = 'mystic_responses.txt'
+  wait_responses_filename = 'wait_responses.txt'
 
   # keep track of the fortunes and responses
   responses = []
   fortunes = []
+  wait_responses = []
 
   # read all of the lines from the fortunes file into a list
-  with open(filename) as f:
+  with open(fortunes_filename) as f:
     fortunes = f.readlines()
 
-  # read all of the lines from the respones file into a list
-  with open(filename) as f:
+  # read all of the lines from the responses file into a list
+  with open(responses_filename) as f:
     responses = f.readlines()
+
+  # read all of the lines from the responses file into a list
+  with open(wait_responses_filename) as f:
+    wait_responses = f.readlines()
 
   ## Start Here
 
-  # THE TASK:
+  option = 0
+  while option > -1:
 
-  # 1. Ask the user to ask a question or receive a fortune
+      # 1. Ask the user to ask a question or receive a fortune
+      try:
+          option = int(raw_input("Question(0), Fortune(1), Quit(-1) : "))
+      except Exception as e:
+          print "I didn't recognize your input"
+          sys.exit()
 
-  # For Questions:
-      # A. Allow the user to enter their question
-      # B. Display an in progress message( i.e. "divining...")
-      # C. Create many responses, and show a random response
+      # For Questions:
+      if option == 0:
+          do_question(wait_responses, responses)
 
-  # For Fortunes:
-      # A. Display an in progress message( i.e. "divining...")
-      # C. Create many responses, and show a random response
+      # For Fortunes:
+      elif option == 1:
+          # A. Display an in progress message( i.e. "divining...")
+          print wait_responses[random.randint(0, len(wait_responses)-1)]
+          time.sleep(2)
+          # C. Create many responses, and show a random response
+          print fortunes[random.randint(0, len(fortunes)-1)]
 
-  # 2. Allow the user to ask another question or quit
+      # 2. Allow the user to ask another question or quit
 
 
   # wait for the user to press enter to quit
@@ -54,3 +80,23 @@ def main():
 # functionality in the main function
 if __name__ == '__main__':
   main()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
