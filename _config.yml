@@ -1,0 +1,15 @@
+# Site settings
+title: Programming Fundamentals
+email: reedcwilson@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  This is an introduction to computer programming. We will use the Python
+  language to program in which is a simple but powerful way to express programs.
+  This site will house videos and documents to help you in your journey to learn
+  to work with computers.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://programming.reedcwilson.com" # the base hostname & protocol for your site
+twitter_username: reedcwilson
+github_username: reedcwilson
+
+# Build settings
+markdown: kramdown
