@@ -95,7 +95,7 @@ the link below:
 
 I will be available weekly:
 
-* Where: Library
+* Where: [Pleasant Grove Library](http://www.plgrove.org/library/)
 * Day: Saturday
 * Time: 10:30 a.m. - 12:00 p.m.
 
