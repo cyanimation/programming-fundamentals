@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to Programming Fundamentals!"
 date:   2015-12-12 20:23:15
-categories: programming learning
+categories:
 ---
 
 Programming is one of the most rewarding activities you could become engaged in.
