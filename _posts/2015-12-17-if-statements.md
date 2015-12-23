@@ -15,6 +15,8 @@ some sort of control that allows us to switch on data.
 
 #### The if statement
 
+<span><i class="fa fa-book"></i><a href="http://www.swaroopch.com/notes/python/#_the_if_statement"> 9.1: The If Statement</a></span>
+
 If statements allow us to do something conditionally. 
 
     if (condition):
@@ -24,6 +26,8 @@ The if statement uses the reserved word `if` and then has parentheses which
 contain a condition. Only boolean values can go inside the parentheses. If that
 value is `True`, then the command(s) that are inside the if statement will be
 executed.
+
+<span><i class="fa fa-book"></i><a href="http://www.swaroopch.com/notes/python/#indentation"> 7.14: Indentation</a></span>
 
 The if statement has a colon after the parentheses which indicates that a
 **_block_** is going to follow. The contents of the block are indented in
@@ -35,6 +39,8 @@ you simply go back to the indentation level you were at before the if.
     if (True):
         print "I'm inside the if"
     print "I'm outside the if"
+
+<span><em><i class="fa fa-flask"></i> Try creating your own if statement!</em></span>
 
 #### Else
 
@@ -76,6 +82,9 @@ condition though. The `family_member` condition is also part of this and since
 there is an `or` combining the previous two conditions and this one, only one
 _or_ the other is necessary to enter the block. Since `family_member` is `True`
 we will enter.
+
+<span><em><i class="fa fa-flask"></i> Try collecting some data from the user
+(raw_input) and doing an if statement based on their response!</em></span>
 
 
 #### Tip

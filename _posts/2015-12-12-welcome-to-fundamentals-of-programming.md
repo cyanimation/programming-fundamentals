@@ -59,9 +59,30 @@ out at the link below.
 
 **_[A Byte of Python](http://www.swaroopch.com/notes/python/)_**
 
+You can also purchase a hard copy if you are more into that. Since I don't have
+a hard copy I will not be able to give page numbers. So you are on your own.
+
+**_[Purchase A Byte of
+Python (Optional)](http://www.lulu.com/shop/swaroop-c-h/a-byte-of-python/paperback/product-21142968.html)_**
+
 I will provide links to appropriate portions of the text as they apply. You may
 read them if you wish. It is often nice to learn from multiple sources so I
-encourage you to do so but it is not required.
+encourage you to do so but it is not required. You will see links to the online
+text throughout this course that look like:
+
+<span><i class="fa fa-book"></i><a href="http://www.swaroopch.com/notes/python/"> The Book</a></span>
+
+
+### Experiments
+
+Programming is learned through experimentation and repetition. When talking to
+computers you must be very precise. There are things I have learned that I
+continue to Google because I forgot the exact syntax and need to be reminded.
+Because we learn by doing I will encourage you to take breaks from the lessons
+to try out a few of the things that you are learning. I call these experiments
+and will prompt you with the following indicator:
+
+<span><em><i class="fa fa-flask"></i> Try it out!</em></span>
 
 
 ### The Syllabus
@@ -84,7 +105,7 @@ setup an account.
 
 **_[Setup a GitHub account](https://github.com/join)_**
 
-I will not discuss how to use GitHub here because the first lesson cover that.
+I will not discuss how to use GitHub here because the first lesson covers that.
 
 To see more details about lessons and assignments check out the syllabus. Click
 the link below:

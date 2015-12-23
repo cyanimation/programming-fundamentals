@@ -9,15 +9,13 @@ categories:
 
 &nbsp;
 
-### Summary
-
 You might remember functions from your Algebra days.
 
     f(x) = 2x + 3
 
 We say that this is a function of `x` meaning that `x` is our variable.
 Functions in math, like the one above, accept inputs and produce outputs. When
-we look at 'running' the function above we see the following results:
+we 'run' the function above we see the following results:
 
     f(0) = 2(0) + 3  -->  3
     f(1) = 2(1) + 3  -->  5
@@ -58,3 +56,5 @@ Takes a `string` representation of a number (`"3.14"`) and converts it to a `flo
 Finds the length of a `string` (how many characters) and returns it as an
 `int`.
 
+<span><em><i class="fa fa-flask"></i> Try collecting some data from the user and
+then print out a specialized message like "It's a pleasure to meet you {name}"!</em></span>

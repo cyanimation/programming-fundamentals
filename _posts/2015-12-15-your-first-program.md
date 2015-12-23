@@ -24,7 +24,7 @@ programming.
 
 ### Create a program
 
-<i class="fa fa-check"></i>
+<span><i class="fa fa-book"></i><a href="http://www.swaroopch.com/notes/python/#_using_a_source_file"> 6.6: Using A Source File</a></span>
 
 We create programs using the text editor. Python programs consist of files that
 end in a ".py" extension. An example file look like: `my-first-program.py`. It
@@ -58,8 +58,12 @@ directory you would have had to point to that location otherwise the command
 would fail. To become a little more comfortable using the terminal try going
 through [this brief tutorial](http://gr8idea.info/os/tutorials/linux/cd.html).
 
+<span><em><i class="fa fa-flask"></i> Make your own 'hello world' program!</em></span>
+
 
 ### Tip
+
+<span><i class="fa fa-book"></i><a href="http://www.swaroopch.com/notes/python/#_comments"> 7.1: Comments</a></span>
 
 You can create comments by putting a '#' at the beginning of a line. Comments
 are not executed by the interpreter so they serve as notes to other developers

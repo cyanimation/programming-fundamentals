@@ -9,9 +9,11 @@ categories:
 
 &nbsp;
 
-### Summary
 
-#### Data Types
+### Data Types
+
+
+<span><i class="fa fa-book"></i><a href="http://www.swaroopch.com/notes/python/#_literal_constants"> 7.2-7.4: Data Types & Strings</a></span>
 
 A data type is simply the type of data we can store in programs. Python has a
 fairly small set of data types. 
@@ -25,7 +27,9 @@ fairly small set of data types.
      special words in Python and are reserved for their raw values. That means
      that you may not use them when naming things.
 
-#### Operators
+### Operators
+
+<span><i class="fa fa-book"></i><a href="http://www.swaroopch.com/notes/python/#_variable"> 8 (all): Operators</a></span>
 
 You can manipulate data using operators (+, -, *, /, <, >, etc). The obvious math
 operations like `1+2` work but we also have other operations like `'I like ' +
@@ -51,7 +55,12 @@ a number of booleans operators (<, >, <=,
 
 Running this program should produce: `True` 4 times.
 
-#### Variables
+<span><em><i class="fa fa-flask"></i> Try printing out some expressions using
+various operators!</em></span>
+
+### Variables
+
+<span><i class="fa fa-book"></i><a href="http://www.swaroopch.com/notes/python/#_variable"> 7.5-7.6: Variables</a></span>
 
 Variables are simply a way to keep track of the values you want to manipulate.
 They act as boxes to hold data types. You can create a variable by doing the
@@ -68,3 +77,6 @@ boolean with the value of `True`.
 Variable names have specific rules. They have to be a single word (no spaces)
 and can have numbers, letters or underscores. They cannot begin with a number
 and are case sensitive (meaning `SPAM` does not equal `spam`).
+
+<span><em><i class="fa fa-flask"></i> Try storing the results of your previous
+operations in variables. Then print them out!</em></span>
