@@ -16,6 +16,7 @@ permalink: /syllabus/
 
 ### Homework
 
+* [Primer](/2015/12/21/primer.html)
 * [Questions](/2015/12/21/questions-1.html)
 * [Tip Calculator](/2015/12/21/tip-calculator.html)
 * [GPA Calculator (optional)](/2015/12/21/gpa-calculator.html)

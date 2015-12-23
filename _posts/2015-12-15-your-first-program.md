@@ -9,13 +9,11 @@ categories:
 
 &nbsp;
 
-### Summary
-
-#### Koding
+### Koding
 
 You should have a free Koding account setup.
 
-#### Text editor vs terminal 
+### Text editor vs terminal 
 
 When you first create your account you should have two separate windows on the
 right-hand side. One is a text editor and the other is a terminal. The text
@@ -24,7 +22,9 @@ should have some prompt text where you can type commands.  We will use both for
 programming.
 
 
-#### Create a program
+### Create a program
+
+<i class="fa fa-check"></i>
 
 We create programs using the text editor. Python programs consist of files that
 end in a ".py" extension. An example file look like: `my-first-program.py`. It
@@ -38,7 +38,7 @@ Type the following command in your text editor and then save it as
 
     print 'hello world' 
 
-#### Execute the program
+### Execute the program
 
 Now try executing the program that you have just created by clicking on the
 terminal and typing:
