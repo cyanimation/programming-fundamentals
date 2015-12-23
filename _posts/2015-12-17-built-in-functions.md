@@ -47,11 +47,11 @@ Takes any data type and converts it to a `string`.
 
 #### **`int <-- int(string)`**
 
-Takes a `string` and converts it to an `int`.
+Takes a `string` representation of a number (`"42"`) and converts it to an `int`.
 
 #### **`float <-- float(string)`**
 
-Takes a `string` and converts it to a `float`.
+Takes a `string` representation of a number (`"3.14"`) and converts it to a `float`.
 
 #### **`int <-- len(string)`**
 
