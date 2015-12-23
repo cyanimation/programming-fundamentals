@@ -4,6 +4,8 @@ title: Syllabus
 permalink: /syllabus/
 ---
 
+[Course Info: Welcome to Programming Fundamentals](/2015/12/12/welcome-to-fundamentals-of-programming.html)
+
 ## Lesson 1
 
 ### Topics
