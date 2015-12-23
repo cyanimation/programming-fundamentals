@@ -76,12 +76,12 @@ You can imagine more complex conditions where multiple variables come into play
 
 The above condition uses `and` and `or` to combine multiple conditions. When you
 say the whole statement out loud you can tell what should happen. In this case
-`mood` must be equal to `Happy` _and_ `age` must be greater than 10. Since that
-combined condition is `False` we would not enter the if block. We have a third
-condition though. The `family_member` condition is also part of this and since
-there is an `or` combining the previous two conditions and this one, only one
-_or_ the other is necessary to enter the block. Since `family_member` is `True`
-we will enter.
+`mood` must be equal to `'Morose'` _and_ `age` must be greater than 10. Since
+that combined condition is `False` we would not enter the if block. We have a
+third condition though. The `family_member` condition is also part of this and
+since there is an `or` combining the previous two conditions and this one, only
+one _or_ the other is necessary to enter the block. Since `family_member` is
+`True` we will enter.
 
 <span><em><i class="fa fa-flask"></i> Try collecting some data from the user
 (raw_input) and doing an if statement based on their response!</em></span>
