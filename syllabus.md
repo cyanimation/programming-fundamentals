@@ -4,7 +4,9 @@ title: Syllabus
 permalink: /syllabus/
 ---
 
-[Course Info: Welcome to Programming Fundamentals](/2015/12/12/welcome-to-fundamentals-of-programming.html)
+
+### [Course Info](/about)
+
 
 ## Lesson 1
 
@@ -22,3 +24,20 @@ permalink: /syllabus/
 * [Questions](/2015/12/21/questions-1.html)
 * [Tip Calculator](/2015/12/21/tip-calculator.html)
 * [GPA Calculator (optional)](/2015/12/21/gpa-calculator.html)
+
+&nbsp;
+
+## Lesson 2
+
+### Topics
+
+* [While Loops](/2016/01/05/while-loops.html)
+* [For Loops](/2016/01/05/for-loops.html)
+* [Special Commands](/2016/01/05/special-commands.html)
+* [Modules](/2016/01/05/modules.html)
+
+### Homework
+
+* [Primer](/2016/01/05/primer-2.html)
+* [Questions](/2016/01/05/questions-2.html)
+* [Fibonacci (optional)](/2016/01/05/fibonacci.html)
