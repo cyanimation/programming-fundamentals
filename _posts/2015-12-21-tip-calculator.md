@@ -18,11 +18,15 @@ Fork the lesson one homework repository.
 
 Clone your remote repository (replacing `reedcwilson` with your username).
 
-    git clone https://github.com/reedcwilson/lesson1.git
+{% highlight bash %}
+git clone https://github.com/reedcwilson/lesson1.git
+{% endhighlight %}
 
 Change directories in your terminal to your newly cloned repository.
 
-    cd lesson1
+{% highlight bash %}
+cd lesson1
+{% endhighlight %}
 
 Open the `tip-calculator.py` file in your text editor by double clicking on it
 in the left pane.

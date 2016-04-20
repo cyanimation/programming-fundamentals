@@ -29,54 +29,58 @@ how we will use Git and GitHub for this class.
 
 &nbsp;
 
-### Summary
-
-#### Fork the repository
+### Fork the repository
 
 In order to get the projects that I have on GitHub into your own free account
 you will need to fork them. You will find a 'fork' button in the repository
 (repo).  After clicking it you will be redirected to your personal GitHub
 account inside your recently forked repo.
 
-#### Clone your forked version
+### Clone your forked version
 
 The repo is still only on the GitHub server. You need to create a local copy (or
 clone) in your own environment. Go to the terminal and write the following
 command (replacing the URL with your repo URL):
 
-    git clone https://github.com/reedcwilson/python-execution.git
+{% highlight bash %}
+git clone https://github.com/reedcwilson/python-execution.git
+{% endhighlight %}
 
 After pressing enter you will see some output in the terminal. This is Git doing
 its work.
 
-#### Enter the local repository
+### Enter the local repository
 
 After Git has finished cloning the repo change your current directory in the
 terminal to your new local repo.
 
-    cd python-execution
+{% highlight bash %}
+cd python-execution
+{% endhighlight %}
 
 You should now be able to run `git status` and see that you are inside of a Git
 repository.
 
-#### Make your changes
+### Make your changes
 
 Now is where you do your work. You will modify or create files for your
 programs. You can change the files however you wish and then consult Git when
 you are ready to save a version.
 
-#### Check status
+### Check status
 
 You can see where you stand with Git by typing in `git status`. Git will tell
 you what has changed. This is a useful command to make sure you know what will
 be committed to the repository.
 
-#### Stage and commit
+### Stage and commit
 
 When you are ready to create a new version you will first need to stage your
 changes.
 
-    git add .
+{% highlight bash %}
+git add .
+{% endhighlight %}
 
 The `.` here means that you want to stage everything that is already being
 tracked. You can specify what you want to stage by typing the file's name
@@ -85,18 +89,22 @@ explicitly.
 After you have staged your changes you are ready to commit them to the
 repo. 
 
-    git commit -m "made the program work"
+{% highlight bash %}
+git commit -m "made the program work"
+{% endhighlight %}
 
 We use the `-m` option to specify a commit message. If you don't include a
 message then Git will open an editor for you to add one so its really just
 easier if you provide one. 
 
-#### Push your commits to the remote
+### Push your commits to the remote
 
 When you have made your commits you are ready to push your changes back to the
 remote server.
 
-    git push origin master
+{% highlight bash %}
+git push origin master
+{% endhighlight %}
 
 `origin` is the alias by which Git knows our remote server. You don't have to
 worry about this because we are just going to use the remote that we cloned it
@@ -107,7 +115,7 @@ make any changes you make conflict less with each other. We won't be using this
 either so your will always be `master` in this class.
 
 
-#### Tip
+### Tip
 
 In the same way that you should save your documents often to avoid losing
 things, it is a good idea to make frequent commits to Git. Frequent commits make

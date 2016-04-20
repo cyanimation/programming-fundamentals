@@ -25,17 +25,21 @@ Write a program that does the following:
 - create a variable for each class you want to include (biology, geometry, etc)
 - create variables storing the credits for each grade
 
-        a = 4
-        a_minus = 3.7
-        ...
+{% highlight python %}
+a = 4
+a_minus = 3.7
+...
+{% endhighlight %}
 
 - ask the user what letter grade they received for each class you chose to
     include
 - calculate the points for each grade by multiplying the user's provided value
     with the credits associated with that letter grade
     
-        if (biology == 'a-'):
-          biology_points = a_minus * biology ...
+{% highlight python %}
+if (biology == 'a-'):
+  biology_points = a_minus * biology ...
+{% endhighlight %}
 
 - keep track of the total points and the total credits
 - calculate the GPA: `total_points / total_credits`

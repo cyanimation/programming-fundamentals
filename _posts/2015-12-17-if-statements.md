@@ -13,21 +13,23 @@ Programs aren't very interesting when they only do one thing. We like programs
 to be multi-purposed and to accept inputs. In order to accomplish this we need
 some sort of control that allows us to switch on data. 
 
-#### The if statement
+### The if statement
 
-<span><i class="fa fa-book"></i><a href="http://www.swaroopch.com/notes/python/#_the_if_statement"> 9.1: The If Statement</a></span>
+<span><i class="fa fa-book"></i><a href="http://python.swaroopch.com/control_flow.html#the-if-statement"> The If Statement</a></span>
 
 If statements allow us to do something conditionally. 
 
-    if (condition):
-        print 'do something if our condition is true'
+{% highlight python %}
+if (condition):
+    print 'do something if our condition is true'
+{% endhighlight %}
 
 The if statement uses the reserved word `if` and then has parentheses which
 contain a condition. Only boolean values can go inside the parentheses. If that
 value is `True`, then the command(s) that are inside the if statement will be
 executed.
 
-<span><i class="fa fa-book"></i><a href="http://www.swaroopch.com/notes/python/#indentation"> 7.14: Indentation</a></span>
+<span><i class="fa fa-book"></i><a href="http://python.swaroopch.com/basics.html#indentation"> Indentation</a></span>
 
 The if statement has a colon after the parentheses which indicates that a
 **_block_** is going to follow. The contents of the block are indented in
@@ -36,43 +38,51 @@ blocks by a single tab, then you must always do this. If you use four spaces
 then you must similarly always use 4 spaces. When you want to end the block then
 you simply go back to the indentation level you were at before the if.
 
-    if (True):
-        print "I'm inside the if"
-    print "I'm outside the if"
+{% highlight python %}
+if (True):
+    print "I'm inside the if"
+print "I'm outside the if"
+{% endhighlight %}
 
 <span><em><i class="fa fa-flask"></i> Try creating your own if statement!</em></span>
 
-#### Else
+### Else
 
 Sometimes we want to do something when a condition is `True` and something else
 when it is false. An else block allows you to switch on conditions like this:
 
-    happy = True
-    if (happy):
-        print "good for you"
-    else:
-        print "that's too bad"
+{% highlight python %}
+happy = True
+if (happy):
+    print "good for you"
+else:
+    print "that's too bad"
+{% endhighlight %}
 
 You can also switch on multiple conditions using an `elif` (else if) statement.
 An `elif` is just like an `if` but comes after an initial `if`.
 
-    mood = 'Grumpy'
-    if (mood == 'Morose');
-        print "We should be friends"
-    elif (mood == 'Grumpy'):
-        print "Don't be coming around me"
-    else:
-        print "I guess I don't recognize your mood"
+{% highlight python %}
+mood = 'Grumpy'
+if (mood == 'Morose');
+    print "We should be friends"
+elif (mood == 'Grumpy'):
+    print "Don't be coming around me"
+else:
+    print "I guess I don't recognize your mood"
+{% endhighlight %}
 
-#### Complex Examples
+### Complex Examples
 
 You can imagine more complex conditions where multiple variables come into play
 
-    age = 11
-    mood = 'Grumpy'
-    family_member = True
-    if (mood == 'Morose' and age > 10 or family_member);
-        print "We should be friends"
+{% highlight python %}
+age = 11
+mood = 'Grumpy'
+family_member = True
+if (mood == 'Morose' and age > 10 or family_member);
+    print "We should be friends"
+{% endhighlight %}
 
 The above condition uses `and` and `or` to combine multiple conditions. When you
 say the whole statement out loud you can tell what should happen. In this case
@@ -87,7 +97,7 @@ one _or_ the other is necessary to enter the block. Since `family_member` is
 (raw_input) and doing an if statement based on their response!</em></span>
 
 
-#### Tip
+### Tip
 
 You might look at the `=` and `==` and wonder how they are different. The single
 `=` is used as the _assignment_ operator. This operator assigns variables, on

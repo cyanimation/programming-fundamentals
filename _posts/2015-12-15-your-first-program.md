@@ -24,7 +24,7 @@ programming.
 
 ### Create a program
 
-<span><i class="fa fa-book"></i><a href="http://www.swaroopch.com/notes/python/#_using_a_source_file"> 6.6: Using A Source File</a></span>
+<span><i class="fa fa-book"></i><a href="http://python.swaroopch.com/first_steps.html#using-a-source-file"> Using A Source File</a></span>
 
 We create programs using the text editor. Python programs consist of files that
 end in a ".py" extension. An example file look like: `my-first-program.py`. It
@@ -36,14 +36,18 @@ terminal.
 Type the following command in your text editor and then save it as
 `my-first-program.py`.
 
-    print 'hello world' 
+{% highlight python %}
+print 'hello world' 
+{% endhighlight %}
 
 ### Execute the program
 
 Now try executing the program that you have just created by clicking on the
 terminal and typing:
 
-    python my-first-program.py
+{% highlight python %}
+python my-first-program.py
+{% endhighlight %}
 
 Press 'Enter' when you are finished to execute the command. The result of this
 command should print 'hello world' (without quotes) in your terminal.
@@ -63,23 +67,26 @@ through [this brief tutorial](http://gr8idea.info/os/tutorials/linux/cd.html).
 
 ### Tip
 
-<span><i class="fa fa-book"></i><a href="http://www.swaroopch.com/notes/python/#_comments"> 7.1: Comments</a></span>
+<span><i class="fa fa-book"></i><a href="http://python.swaroopch.com/basics.html#comments"> Comments</a></span>
 
 You can create comments by putting a '#' at the beginning of a line. Comments
 are not executed by the interpreter so they serve as notes to other developers
 (or even yourself when you forget) regarding your code. You can also create
 multi-line comments by putting triple quotes around your text:
 
-    # a single line comment
 
-    print "this will be executed because it it not commented out"
+{% highlight python %}
+# a single line comment
 
-    '''
-    this is a multi-
-    line comment
-    '''
+print "this will be executed because it it not commented out"
 
-    """
-    this is also a
-    multi-line comment
-    """
+'''
+this is a multi-
+line comment
+'''
+
+"""
+this is also a
+multi-line comment
+"""
+{% endhighlight %}

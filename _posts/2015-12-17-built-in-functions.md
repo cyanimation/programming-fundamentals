@@ -11,16 +11,20 @@ categories:
 
 You might remember functions from your Algebra days.
 
-    f(x) = 2x + 3
+{% highlight python %}
+f(x) = 2x + 3
+{% endhighlight %}
 
 We say that this is a function of `x` meaning that `x` is our variable.
 Functions in math, like the one above, accept inputs and produce outputs. When
 we 'run' the function above we see the following results:
 
-    f(0) = 2(0) + 3  -->  3
-    f(1) = 2(1) + 3  -->  5
-    f(2) = 2(2) + 3  -->  7
-    f(2) = 2(3) + 3  -->  9
+{% highlight python %}
+f(0) = 2(0) + 3  -->  3
+f(1) = 2(1) + 3  -->  5
+f(2) = 2(2) + 3  -->  7
+f(2) = 2(3) + 3  -->  9
+{% endhighlight %}
 
 Functions in programming look a little different but the same concepts apply.
 The language gives us some build-in functions to make life easy. We have already

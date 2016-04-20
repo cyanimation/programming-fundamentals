@@ -13,7 +13,7 @@ categories:
 ### Data Types
 
 
-<span><i class="fa fa-book"></i><a href="http://www.swaroopch.com/notes/python/#_literal_constants"> 7.2-7.4: Data Types & Strings</a></span>
+<span><i class="fa fa-book"></i><a href="http://python.swaroopch.com/basics.html#literal-constants"> Data Types & Strings</a></span>
 
 A data type is simply the type of data we can store in programs. Python has a
 fairly small set of data types. 
@@ -29,7 +29,7 @@ fairly small set of data types.
 
 ### Operators
 
-<span><i class="fa fa-book"></i><a href="http://www.swaroopch.com/notes/python/#_variable"> 8 (all): Operators</a></span>
+<span><i class="fa fa-book"></i><a href="http://python.swaroopch.com/op_exp.html"> Operators</a></span>
 
 You can manipulate data using operators (+, -, *, /, <, >, etc). The obvious math
 operations like `1+2` work but we also have other operations like `'I like ' +
@@ -38,9 +38,11 @@ single string.
 
 Try printing out to the terminal screen some math operations:
 
-    # use the exponentiation operator
-    print 2**3
-    print 'reed likes' + ' to program'
+{% highlight python %}
+# use the exponentiation operator
+print 2**3
+print 'reed likes' + ' to program'
+{% endhighlight %}
 
 Running this program should produce: `8` and `reed likes to program`.
 
@@ -48,10 +50,12 @@ In addition to the math operators and a few that work on strings there are also
 a number of booleans operators (<, >, <=,
 >=, ==, !=, not, or, and). 
 
-    print 3 < 4
-    print '4' != 4  # strings are never equal to numbers
-    print 42 == 42
-    print 1 < 2 and 2 < 3
+{% highlight python %}
+print 3 < 4
+print '4' != 4  # strings are never equal to numbers
+print 42 == 42
+print 1 < 2 and 2 < 3
+{% endhighlight %}
 
 Running this program should produce: `True` 4 times.
 
@@ -60,15 +64,17 @@ various operators!</em></span>
 
 ### Variables
 
-<span><i class="fa fa-book"></i><a href="http://www.swaroopch.com/notes/python/#_variable"> 7.5-7.6: Variables</a></span>
+<span><i class="fa fa-book"></i><a href="http://python.swaroopch.com/basics.html#variable"> Variables</a></span>
 
 Variables are simply a way to keep track of the values you want to manipulate.
 They act as boxes to hold data types. You can create a variable by doing the
 following:
 
-    my_name = 'reed'
-    my_height = 70.9375
-    happy = True
+{% highlight python %}
+my_name = 'reed'
+my_height = 70.9375
+happy = True
+{% endhighlight %}
 
 The first variable will hold a string with the value of `reed`, the second
 will hold an floating point with the value of `70.9375`, and the third will hold a
