@@ -41,3 +41,14 @@ permalink: /syllabus/
 * [Primer](/2016/01/05/primer-2.html)
 * [Questions](/2016/01/05/questions-2.html)
 * [Fibonacci (optional)](/2016/01/05/fibonacci.html)
+ 
+&nbsp;
+
+## Lesson 3
+
+### Topics
+
+* [Functions](/2016/06/11/functions.html)
+
+### Homework
+
